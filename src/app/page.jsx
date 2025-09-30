@@ -18,7 +18,7 @@ export default function Home() {
   const [showAboutYouBtn, setShowAboutYouBtn] = useState(false)
   const [showForYouBtn, setShowForYouBtn] = useState(false)
   const [showGiftForYouBtn, setShowGiftForYouBtn] = useState(false)
-  const birthdayDate = new Date("october 7, 2024") // Change this date accordingly
+  const birthdayDate = new Date("october 7, 2025") // Change this date accordingly
   const audioRef = useRef(null)
 
   useEffect(() => {
